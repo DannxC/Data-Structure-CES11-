@@ -1,0 +1,6 @@
+80/100
+
+problema: vazamento de memoria
+
+para corrigir o problema, bastava utilizar a função "list_destroy" corretamente no final da main, para que
+ela pudesse limpar a memoria residual. No caso, a função list destroy está codada errada, faltou dar um "free(list->L)"
